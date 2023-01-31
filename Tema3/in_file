@@ -1,0 +1,5 @@
+add_book A:Eric Tyson:4:454
+add_book Ports of Call:Jack Vance:4:300
+search_book Ports of Call
+delete_book Ports of Call
+search_book Ports of Call
