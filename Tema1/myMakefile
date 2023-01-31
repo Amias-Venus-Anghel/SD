@@ -1,0 +1,11 @@
+build: 
+	gcc tema1.c tema1-functii.c -o tema1
+run:
+	./tema1 4 hash.in hash.out
+
+.PHONY: clean checkMem
+clean:
+	rm -rf tema1
+
+checkMem:
+	valgrind --leak-check=yes --track-origins=yes ./tema1 4 hash.in hash.out

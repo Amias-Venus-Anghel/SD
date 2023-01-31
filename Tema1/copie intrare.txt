@@ -1,0 +1,13 @@
+put www.google.com 8.8.8.8
+find www.yahoo.com
+put www.yahoo.com 5.5.5.4
+put www.google.ro 8.8.2.1
+print
+remove www.google.com
+print
+print_bucket 2
+remove www.google.com
+print_bucket 2
+find www.yahoo.com
+get www.yahoo.com
+get www.gmail.com
